@@ -1,0 +1,40 @@
+.register {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f9d5d3, #f7b7a3);
+}
+
+.lottie {
+  height: 600px;
+}
+
+.input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.Already-Registered {
+  color: black;
+}
+
+.register h1 {
+  font-size: 25px;
+}
+
+.no-underline {
+  text-decoration: none;
+  color: inherit;
+}
+
+.lumin-link {
+  color: black;
+  text-decoration: none;
+}
+
+.lumin-link:hover {
+  color: #36454F; /* Change the color on hover */
+}
+
+

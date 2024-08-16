@@ -1,0 +1,153 @@
+/* HeroSection.css */
+.hero-container {
+    background-image: url('D:/app development/expense_tracker_app/client/public/howei-wang-czixWMB23cU-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional for better readability */
+    border-radius: 10px;
+  }
+  
+  .hero-headline {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subheadline {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #36454F;
+    background-color: #ffebee; /* Light shade for button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Ensure the link text looks like a button */
+  }
+  
+  .cta-button:hover {
+    background-color: #f8cdd0; /* Darker shade for hover effect */
+  }
+
+
+
+/* HowItWorksSection.css */
+.how-it-works-container {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffebee;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .steps-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .step {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .step-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .step-title {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    color: #333;
+  }
+
+
+
+
+
+
+
+  /* TestimonialsSection.css */
+.testimonials-container {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fba073;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .testimonials-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .testimonial {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+  }
+  
+  .testimonial::before {
+    content: '“';
+    font-size: 4rem;
+    color: #007BFF; /* Accent color */
+    position: absolute;
+    top: -20px;
+    left: -20px;
+  }
+  
+  .testimonial-text {
+    font-size: 1.25rem;
+    color: #555;
+    margin: 0;
+  }
+  
+  .testimonial-author {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  
+  

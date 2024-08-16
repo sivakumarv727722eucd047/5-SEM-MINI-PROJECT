@@ -1,0 +1,165 @@
+.profile-background {
+  background-image: url('D:/app development/expense_tracker_app/client/src/assets/jakub-zerdzicki-2ImPYrQmsWI-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px); /* Blur effect */
+  margin: 128px;
+  padding-bottom: 64px;
+}
+
+.welcome-message {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profile-title {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.profile-form {
+  margin-bottom: 30px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.form-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #dc3545;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.modal-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+}
+
+.modal-close {
+  color: #888;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  color: #333;
+}
+
+.modal-text {
+  margin: 20px 0;
+  color: #555;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modal-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.modal-confirm {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.modal-confirm:hover {
+  background-color: #c82333;
+}
+
+.modal-cancel {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.modal-cancel:hover {
+  background-color: #0056b3;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+}
